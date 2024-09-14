@@ -16,7 +16,7 @@ const url = process.env.MONGO_URL;
 //  const MONGO_URL = "mongodb://localhost/MahaCrred ";
 
  main().then(()=>{
-    console.log("monoDB conneted to port 7566 ");
+    console.log("monoDB conneted to port 5000 ");
     
  }).catch((err) => {
     console.log("failed to connect database");
