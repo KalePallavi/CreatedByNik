@@ -76,7 +76,7 @@ router.post('/deleteInvoice/:id',salesInvoiceValidation,companyController.delete
 
 // Third Eye
 // router.get('/get-Third-eye/:id',roleAuth('Company'), companyController.thiredEye);
-router.get('/searchCompany',companyController.searchCompany);
+// router.get('/searchCompany',companyController.searchCompany);
 
 
 module.exports = router;
