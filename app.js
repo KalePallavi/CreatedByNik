@@ -16,7 +16,7 @@ const url = process.env.MONGO_URL;
 //  const MONGO_URL = "mongodb://localhost/MahaCrred ";
 
  main().then(()=>{
-    console.log("monoDB conneted to port 5000 ");
+    console.log("monoDB conneted to port 7566 ");
     
  }).catch((err) => {
     console.log("failed to connect database");
@@ -40,6 +40,6 @@ app.use('/api/companies', companyRoutes,)
 
 const port = process.env.port ;
  app.listen(port,() => {
-    console.log("port 5000 is working");
+    console.log("port 7566 is working");
     
  });
