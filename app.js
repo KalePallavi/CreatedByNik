@@ -39,7 +39,7 @@ app.use('/api/companies', companyRoutes,)
 // });
 
 const port = process.env.port ;
- app.listen(3500,() => {
+ app.listen(port,() => {
     console.log("port 5000 is working");
     
  });
